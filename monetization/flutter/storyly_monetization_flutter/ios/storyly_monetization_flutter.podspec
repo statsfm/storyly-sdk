@@ -22,5 +22,6 @@ Pod::Spec.new do |s|
   s.swift_versions = ["5.0", "5.1", "5.2", "5.3"]
 
   s.dependency "StorylyMonetization"
+  s.dependency 'Google-Mobile-Ads-SDK', '~> 11.10.0'
   s.dependency "storyly_flutter"
 end
