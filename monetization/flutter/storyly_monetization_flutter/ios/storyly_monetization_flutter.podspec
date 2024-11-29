@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
   s.swift_versions = ["5.0", "5.1", "5.2", "5.3"]
 
-  s.dependency "StorylyMonetization", "~> 3.0"
-  s.dependency "storyly_flutter", "~> 3.0"
+  s.dependency "StorylyMonetization"
+  s.dependency "storyly_flutter"
 end
