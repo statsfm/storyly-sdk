@@ -6,7 +6,7 @@
 //
 
 import Storyly
-// import StorylyMonetization
+import StorylyMonetization
 import storyly_flutter
 
 class StorylyMonetizationFlutter {
@@ -45,12 +45,12 @@ class StorylyMonetizationFlutter {
         guard let adMobUnitId = adViewProvider["adMobAdUnitId"] as? String else { return }
         let adMobAdExtras = adViewProvider["adMobAdExtras"] as? [String: Any]
 
-        let storylyAdViewProvider = StorylyAdViewProvider(rootViewController: rootViewController,adMobAdUnitId: adMobUnitId, adMobAdExtras: adMobAdExtras)
+        let storylyAdViewProvider = StorylyMonetization.StorylyAdViewProvider(rootViewController: rootViewController,adMobAdUnitId: adMobUnitId, adMobAdExtras: adMobAdExtras)
         self.setAdViewProvider(storylyView: storylyView, adViewProvider: storylyAdViewProvider)
 
     }
 
-    private func setAdViewProvider(storylyView: StorylyView, adViewProvider: StorylyAdViewProvider?) {
+    private func setAdViewProvider(storylyView: StorylyView, adViewProvider: StorylyMonetization.StorylyAdViewProvider?) {
         objc_setAssociatedObject(storylyView,
                                  &StorylyMonetizationFlutter.strongAdViewProviderKey,
                                  adViewProvider, .OBJC_ASSOCIATION_RETAIN)

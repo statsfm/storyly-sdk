@@ -1,0 +1,256 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Storyly",
+        "printedName": "Storyly",
+        "declKind": "Import",
+        "moduleName": "StorylyMonetization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StorylyAdViewProvider",
+        "printedName": "StorylyAdViewProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rootViewController:adMobAdUnitId:adMobAdExtras:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StorylyAdViewProvider",
+                "printedName": "StorylyMonetization.StorylyAdViewProvider",
+                "usr": "c:@M@StorylyMonetization@objc(cs)StorylyAdViewProvider"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@StorylyMonetization@objc(cs)StorylyAdViewProvider(im)initWithRootViewController:adMobAdUnitId:adMobAdExtras:",
+            "mangledName": "$s19StorylyMonetization0A14AdViewProviderC04rootD10Controller05adMobC6UnitId0hiC6ExtrasACSo06UIViewG0C_SSSDySSypGSgtcfc",
+            "moduleName": "StorylyMonetization",
+            "objc_name": "initWithRootViewController:adMobAdUnitId:adMobAdExtras:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "onRequest",
+            "printedName": "onRequest(adViewListener:frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StorylyAdViewListener",
+                "printedName": "any Storyly.StorylyAdViewListener",
+                "usr": "c:@M@Storyly@objc(pl)StorylyAdViewListener"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StorylyMonetization@objc(cs)StorylyAdViewProvider(im)onRequest::",
+            "mangledName": "$s19StorylyMonetization0A14AdViewProviderC9onRequest02adD8Listener5framey0A00acdI0_p_So6CGRectVtF",
+            "moduleName": "StorylyMonetization",
+            "objc_name": "onRequest::",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StorylyAdViewProvider",
+                "printedName": "StorylyMonetization.StorylyAdViewProvider",
+                "usr": "c:@M@StorylyMonetization@objc(cs)StorylyAdViewProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@StorylyMonetization@objc(cs)StorylyAdViewProvider(im)init",
+            "mangledName": "$s19StorylyMonetization0A14AdViewProviderCACycfc",
+            "moduleName": "StorylyMonetization",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@StorylyMonetization@objc(cs)StorylyAdViewProvider",
+        "mangledName": "$s19StorylyMonetization0A14AdViewProviderC",
+        "moduleName": "StorylyMonetization",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "StorylyAdViewProvider",
+            "printedName": "StorylyAdViewProvider",
+            "usr": "c:@M@Storyly@objc(pl)StorylyAdViewProvider",
+            "mangledName": "$s7Storyly0A14AdViewProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Storyly",
+        "printedName": "Storyly",
+        "declKind": "Import",
+        "moduleName": "StorylyMonetization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GoogleMobileAds",
+        "printedName": "GoogleMobileAds",
+        "declKind": "Import",
+        "moduleName": "StorylyMonetization",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/StorylyMonetization\/StorylyMonetization\/Source\/StorylyAdViewProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 21,
+      "value": "\"StorylyMonetization.StorylyAdViewProvider\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/StorylyMonetization\/StorylyMonetization\/Source\/Admob\/AdmobAdView.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 11,
+      "value": "\"StorylyMonetization.AdmobAdView\""
+    }
+  ]
+}

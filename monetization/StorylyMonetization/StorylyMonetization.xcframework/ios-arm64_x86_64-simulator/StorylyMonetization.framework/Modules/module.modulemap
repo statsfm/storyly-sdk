@@ -1,0 +1,11 @@
+framework module StorylyMonetization {
+  umbrella header "StorylyMonetization.h"
+  export *
+
+  module * { export * }
+}
+
+module StorylyMonetization.Swift {
+  header "StorylyMonetization-Swift.h"
+  requires objc
+}

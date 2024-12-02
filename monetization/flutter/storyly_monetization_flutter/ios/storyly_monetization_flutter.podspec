@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'storyly_monetization_flutter'
-  s.version          = '3.0.0'
+  s.version          = '3.0.1'
   s.summary          = 'Storyly flutter plugin.'
   s.description      = <<-DESC
   Storyly for flutter
@@ -21,7 +21,6 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
   s.swift_versions = ["5.0", "5.1", "5.2", "5.3"]
 
-  # s.dependency "StorylyMonetization"
+  s.dependency "StorylyMonetization"
   s.dependency "storyly_flutter"
-  s.dependency 'Google-Mobile-Ads-SDK', '~> 11.10.0'
 end
